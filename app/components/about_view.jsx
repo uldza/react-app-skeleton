@@ -13,7 +13,7 @@ class AboutView extends React.Component {
 
     componentDidMount() {
         setTimeout(() => {
-            AppActions.testThis('Hello from About');
+            AppActions.testThis('Hello from after 5sec');
         }, 5000);
     }
 

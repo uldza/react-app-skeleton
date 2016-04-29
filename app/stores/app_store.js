@@ -1,4 +1,4 @@
-import alt from '../alt';
+import alt from 'dispatcher';
 import AppActions from '../actions/app_actions';
 
 class AppStore {
