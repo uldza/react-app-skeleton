@@ -1,5 +1,6 @@
 # Brunch + React + Babel/ES6 + Alt.js
 
+It also include [bootstrap4](http://v4-alpha.getbootstrap.com/) and [react-router](https://github.com/reactjs/react-router)
 This is a modern JS skeleton with React for [Brunch](http://brunch.io).
 
 ## Installation
