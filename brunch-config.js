@@ -10,6 +10,11 @@ module.exports = {
   },
 
   plugins: {
-    babel: {presets: ['es2015', 'react']}
+    babel: {presets: ['es2015', 'react']},
+    sass: {
+      options: {
+        includePaths: ['node_modules/bootstrap/scss']
+      }
+    }
   }
 };

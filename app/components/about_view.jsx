@@ -1,5 +1,6 @@
 import React from 'react';
 import connectToStores from 'alt-utils/lib/connectToStores';
+
 import AppStore from '../stores/app_store';
 import AppActions from '../actions/app_actions';
 
@@ -19,7 +20,7 @@ class AboutView extends React.Component {
 
     render() {
         return (
-            <div>{this.props.message}</div>
+            <div className="container">{this.props.message}</div>
         );
     }
 }
